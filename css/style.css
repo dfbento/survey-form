@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../assets/back-form.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.container {
+
+    /* display: block; */
+    overflow: hidden;
+    background-color: #4C4D91BB;
+    color: white;
+    /* border: 5px solid black; */
+    /* width: 100%; */
+
+
+
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.div-form {
+
+    margin: auto;
+    background-color: #282747BB;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.mb {
+    margin-bottom: 15px;
+}
+
+.mb-p {
+    margin-bottom: 5px;
+}
+
+main {
+    margin: 10px;
+    padding: 10px;
+}
+
+input,
+select {
+
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: none;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+input[type="radio"] {
+    width: auto;
+}
